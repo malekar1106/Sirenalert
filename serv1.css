@@ -1,0 +1,176 @@
+/* body{
+	font-family: 'Inter', sans-serif;
+	margin: 0;
+} */
+
+.container{
+	max-width: 1428px;
+	margin: 0 auto;
+	background-color: #f4f5f6;
+	height: 100vh;
+}
+
+a{
+	text-decoration: none;
+}
+
+.header{
+	display: flex;
+	justify-content: space-evenly;
+	color: #fff;
+	background: linear-gradient(90deg, rgba(111,177,127,1) 0%, rgba(154,173,89,1) 100%);
+	padding: 2em 0;
+	align-items: center;
+}
+
+.contact-search{
+	font-size: 1.2em;
+	padding:.3em .3em;
+	border-radius: 100px;
+	border:1px solid white;
+	outline: none;
+}
+
+
+.contacts-library{
+	background: #fdfdfd;
+}
+
+.add{
+	color: #5f5c5c;
+	font-size: 1.5em;
+}
+
+i{
+	color: #aeaaaa;
+	font-size: 1.5em;
+}
+
+.contact-name{
+	color: #222c16;
+	font-size: 1.2em;
+}
+
+
+ul{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+
+hr{
+	border: 1px solicontactd #437f46;
+}
+
+.list__item{
+	list-style: none;
+}
+
+.relationship{
+	color: #fff;
+	width: 6em;
+	text-align: center;
+	padding: .4em .5em;
+	border-radius: 100px;
+	border-top-left-radius: 0;
+	background-color: #75A85E;
+}
+
+.contact-section{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 1.5em;
+	transition: 0.3s;
+}
+
+.contact-section:hover{
+	background-color: #77c17c;
+}
+
+.text{
+	padding-left: 1em;
+}
+
+/* title effect */
+#ani a {
+    background-image: linear-gradient(
+      to right,
+      #619e7c,
+      #619e7c 50%,
+      #474747 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+/* logo */
+.bb h2{
+  text-align: center;
+  color: #fff;
+      font-size: 92px;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-family: "Josefin Sans", sans-serif;
+      background: linear-gradient(to right,#f3f0f0 8%, #528d60 70%, #73ba8b 30%);
+      background-size: auto auto;
+      background-clip: border-box;
+      background-size: 200% auto;
+      color: #fff;
+      background-clip: text;
+      text-emphasis-color: transparent;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: textclip 1.5s linear infinite;
+      display: inline-block;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+  #ani a:before{
+    content: '';
+    background: #619e7c;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #ani a:hover {
+   background-position: 0;
+  }
+  
+  #ani a:hover::before{
+    width: 100%;
+  }
+  #ani button{
+    background-image: url(button.png);
+    background-color: transparent;
+    color: #088178;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+
+
+}

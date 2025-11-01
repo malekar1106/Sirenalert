@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
+html, body{
+    height: 100%;
+    width: 100%;
+    /* font-family: 'Poppins', sans-serif; */
+    color: #f9f4f4;
+    font-family: 'Inter', sans-serif;
+	margin: 0;
+}
+#navbarResponsive{
+    margin-left: 300px;
+}
+
+.navbar{
+    padding: .2rem;
+
+}
+.navbar-nav li {
+    padding-right: 20px;
+    /* margin-left: 50px; */
+}
+#ram{
+    margin-right: -600px;
+}
+#title{
+    background-color: #3f3f3f;
+}
+.nav-link{
+    font-size: 1.1em !important;
+}
+.navbar-nav ul {
+   margin-left: 100px;
+    /* margin-left: 50px; */
+}
+/* .carousel-inner img {
+    width: 1550px;
+    height: 550px;
+} */
+
+
+.jumbotron {
+    padding: 1rem;
+    border-radius: 0;
+}
+.padding {
+    padding-bottom: 0rem;
+
+}
+/* .welcome {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem ;
+
+}
+.welcome hr{
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem ;
+
+} */
+
+
+
+footer{
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem ;
+    margin-top: 1380px;
+}
+
+hr.light{
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+footer a{
+    color: #d5d5d5;
+
+}
+hr.light-100{
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+
+}
+
+
+
+
+/* Media Queries */
+@media(max-width: 992px){
+.social a{
+    font-size: 4em;
+    padding: 2rem;
+}
+}
